@@ -11,7 +11,7 @@ public class ElementsFirstPageOrder {
     //поле фамилия
     private By LastName = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[2]/input");
     //поле адрес
-    private By Adress = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[3]/input");
+    private By Address = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[3]/input");
     //поле станция метро
     public By Metro = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[4]/div/div/input");
     public By Station = By.linkText("Красносельская");
@@ -24,7 +24,7 @@ public class ElementsFirstPageOrder {
 
     //конструктор класса
     public ElementsFirstPageOrder(WebDriver driver) {
-        this.driver = this.driver;
+        this.driver = driver;
     }
 
     public void setUsername(String name) {
@@ -34,30 +34,12 @@ public class ElementsFirstPageOrder {
     public void setLastName(String lastname) {
         driver.findElement(LastName).sendKeys(lastname);
     }
-    public void setAdress(String adress) {
-        driver.findElement(Adress).sendKeys(adress);
+    public void setAddress(String address) {
+        driver.findElement(Address).sendKeys(address);
     }
     public void setPhone(String phone) {
         driver.findElement(Phone).sendKeys(phone);
     }
 }
-   /* public void clickByElement() {
-        driver.findElement("").click();
 
-    }
-    //метод заполненяет поля ввода пароля
-    public void setPassword(String password) {
-        driver.findElement(passwordField).sendKeys(password);
-    }
-    //метод кликает по кнопке авторизации
-    public void clickSignInButton() {
-        driver.findElement(signInButton).click();
-    }
-    //метод авторизации в приложении: объединяет ввод email, пароля и клик по кнопке
-    public void login(String username, String password){
-        setUsername(username);
-        setPassword(password);
-        clickSignInButton();
-    }
-}*/
 

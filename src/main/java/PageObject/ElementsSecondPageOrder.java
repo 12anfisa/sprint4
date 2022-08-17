@@ -24,12 +24,12 @@ public class ElementsSecondPageOrder {
     //кнопка заказть
     public By Button_Order = By.className("Button_Button__ra12g Button_Middle__1CSJM");
 
-//конструктор класса
-public ElementsSecondPageOrder(WebDriver driver) {
-    this.driver = this.driver;
+    //конструктор класса
+    public ElementsSecondPageOrder(WebDriver driver) {
+        this.driver = driver;
+    }
 }
-   //заполняет пол
 
 
 
-}
+

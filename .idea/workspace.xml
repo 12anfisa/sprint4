@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="63288529-34b5-4c5b-876a-a9fdb029ddc5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsFirstPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsFirstPageOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Сonfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Сonfirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Сonfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Confirmation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/OrderScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderScooter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java" afterDir="false" />
     </list>
