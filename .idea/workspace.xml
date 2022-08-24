@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="63288529-34b5-4c5b-876a-a9fdb029ddc5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsFirstPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsFirstPageOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Сonfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Confirmation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/OrderScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderScooter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java" afterDir="false" />
     </list>
@@ -46,12 +47,31 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.OrderScooter.test1order">
+  <component name="RunManager" selected="JUnit.OrderScooter.test2order">
+    <configuration name="OrderScooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderScooter" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderScooter.test1order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OrderScooter" />
       <option name="METHOD_NAME" value="test1order" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderScooter.test2order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderScooter" />
+      <option name="METHOD_NAME" value="test2order" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,16 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionsAboutImportant.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuestionsAboutImportant" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuestionsAboutImportant.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint4" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,23 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionsAboutImportant.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuestionsAboutImportant" />
-      <option name="METHOD_NAME" value="test8" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderScooter.test2order" />
         <item itemvalue="JUnit.OrderScooter.test1order" />
-        <item itemvalue="JUnit.QuestionsAboutImportant.test1" />
+        <item itemvalue="JUnit.OrderScooter" />
         <item itemvalue="JUnit.QuestionsAboutImportant" />
         <item itemvalue="JUnit.QuestionsAboutImportant.test7" />
-        <item itemvalue="JUnit.QuestionsAboutImportant.test8" />
       </list>
     </recent_temporary>
   </component>
@@ -127,5 +127,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/OrderScooter.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -6,15 +6,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class QuestionsAboutImportant {
     private WebDriver driver;
     ElementsForQuestions elementsForQuestions;
 @Before
-public void before() {ChromeOptions options = new ChromeOptions(); // Драйвер для браузера Chrome
-        options.addArguments("--no-sandbox", "--headless", "--disable-dev-shm-usage");
-    driver = new ChromeDriver(options);
+public void before() {
+    WebDriverManager.chromedriver().setup();
+
+    driver = new ChromeDriver();
         driver.get("https://qa-scooter.praktikum-services.ru/");
     elementsForQuestions = new ElementsForQuestions(driver);}
     @Test

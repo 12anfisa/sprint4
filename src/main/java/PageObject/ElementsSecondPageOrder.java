@@ -6,11 +6,11 @@ import org.openqa.selenium.WebDriver;
 public class ElementsSecondPageOrder {
     private WebDriver driver;
     //когда привезти самокат
-    public By Date = By.tagName("* Когда привезти самокат");
+    public static By Date = By.cssSelector(".react-datepicker__input-container");
     //выбор даты
-    public By ThisDate = By.className("react-datepicker__day react-datepicker__day--026 react-datepicker__day--selected");
+   // public By ThisDate = By.cssSelector(".Dropdown-placeholder");
     //срок аренды
-    public By Rent = By.className("Dropdown-control");
+    public By Rent = By.cssSelector(".Dropdown-placeholder");
     //время аренды
     public By TimeRent = By.className("Dropdown-option");
     // цвет самоката
@@ -28,6 +28,9 @@ public class ElementsSecondPageOrder {
     public ElementsSecondPageOrder(WebDriver driver) {
         this.driver = driver;
     }
+
+
+
 }
 
 

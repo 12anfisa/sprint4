@@ -14,12 +14,12 @@ public class ElementsFirstPageOrder {
     private By Address = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[3]/input");
     //поле станция метро
     public By Metro = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[4]/div/div/input");
-    public By Station = By.linkText("Красносельская");
+   // public By Station = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[4]/div/div/input");
     //поле телефон
 
     private By Phone = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[5]/input");
     //кнопка далее
-    public By Button_Next = By.className("Button_Button__ra12g Button_Middle__1CSJM");
+    public By Button_Next = By.cssSelector(".Button_Middle__1CSJM");
 
 
     //конструктор класса
@@ -40,6 +40,9 @@ public class ElementsFirstPageOrder {
     public void setPhone(String phone) {
         driver.findElement(Phone).sendKeys(phone);
     }
-}
+    public void setMetro(String station) {driver.findElement(Metro).sendKeys(station);}
+    public void setDate(String date) {driver.findElement(ElementsSecondPageOrder.Date).sendKeys(date);
+    }
+    }
 
 
