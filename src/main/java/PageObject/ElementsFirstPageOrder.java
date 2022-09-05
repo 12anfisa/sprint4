@@ -1,6 +1,7 @@
 package PageObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 public class ElementsFirstPageOrder {
@@ -40,16 +41,19 @@ public class ElementsFirstPageOrder {
     public void setPhone(String phone) {
         driver.findElement(Phone).sendKeys(phone);
     }
-    public void setStation(String station)
-    {driver.findElement(Metro).click();
-       String xpath = String.format(".//div[@class='select-search__select']/ul/li[@data-index='%s']/button", station);
-               By metro = By.xpath(xpath);
-        driver.findElement(metro).click();
+    public void setStation(String station) {
+        driver.findElement(Metro).click();
+        By metro = By.className("select-search__input");
+        driver.findElement(metro).sendKeys(station);
+        driver.findElement(metro).sendKeys(Keys.DOWN);
+        driver.findElement(metro).sendKeys(Keys.RETURN);
     }
 
-
-    public void setDate(String date) {driver.findElement(ElementsSecondPageOrder.Date).sendKeys(date);
-    }
+    public void setDate(String dateRent) {
+        driver.findElement(ElementsSecondPageOrder.Date).click();
+        By date = By.xpath("//input[@placeholder='* Когда привезти самокат']");
+        driver.findElement(date).sendKeys(dateRent);
+        driver.findElement(date).sendKeys(Keys.ENTER);}
     }
 
 

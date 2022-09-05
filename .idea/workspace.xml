@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="63288529-34b5-4c5b-876a-a9fdb029ddc5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Confirmation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsFirstPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsFirstPageOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OrderScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderScooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.OrderScooter.test1order">
+  <component name="RunManager" selected="JUnit.QuestionsAboutImportant">
     <configuration name="OrderScooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint4" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,10 +95,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuestionsAboutImportant" />
+        <item itemvalue="JUnit.OrderScooter" />
         <item itemvalue="JUnit.OrderScooter.test1order" />
         <item itemvalue="JUnit.OrderScooter.test2order" />
-        <item itemvalue="JUnit.OrderScooter" />
-        <item itemvalue="JUnit.QuestionsAboutImportant" />
         <item itemvalue="JUnit.QuestionsAboutImportant.test7" />
       </list>
     </recent_temporary>
@@ -118,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661359843900</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix">
+      <created>1662131088716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662131088716</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

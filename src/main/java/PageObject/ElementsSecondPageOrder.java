@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class ElementsSecondPageOrder {
     private WebDriver driver;
     //когда привезти самокат
-    public static By Date = By.cssSelector(".react-datepicker__input-container");
+    public static By Date = By.xpath("//input[@placeholder='* Когда привезти самокат']");
     //выбор даты
    // public By ThisDate = By.cssSelector(".Dropdown-placeholder");
     //срок аренды
@@ -22,7 +22,7 @@ public class ElementsSecondPageOrder {
     // комментарий для курьера
     private By Comment = By.tagName("Комментарий для курьера");
     //кнопка заказть
-    public By Button_Order = By.className("Button_Button__ra12g Button_Middle__1CSJM");
+    public By Button_Order =By.cssSelector(".Button_Middle__1CSJM:nth-child(2)");
 
     //конструктор класса
     public ElementsSecondPageOrder(WebDriver driver) {
