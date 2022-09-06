@@ -7,10 +7,8 @@
     <list default="true" id="63288529-34b5-4c5b-876a-a9fdb029ddc5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Confirmation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/OrderScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderScooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662402694936</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Почему то падает то что работало до, не понимаю почему не проверка остального заработала">
+      <created>1662495447127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662495447127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="Почему то падает то что работало до, не понимаю почему не проверка остального заработала" />
+    <option name="LAST_COMMIT_MESSAGE" value="Почему то падает то что работало до, не понимаю почему не проверка остального заработала" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

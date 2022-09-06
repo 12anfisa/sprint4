@@ -22,7 +22,7 @@ public class ElementsSecondPageOrder {
     // комментарий для курьера
     private By Comment = By.tagName("Комментарий для курьера");
     //кнопка заказть
-    public By Button_Order =By.cssSelector(".Button_Middle__1CSJM:nth-child(2)");
+    public By Button_Order = By.cssSelector(".Button_Middle__1CSJM:nth-child(2)");
 
     //конструктор класса
     public ElementsSecondPageOrder(WebDriver driver) {

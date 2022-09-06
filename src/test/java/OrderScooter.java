@@ -52,8 +52,8 @@ public class OrderScooter {
     }
     public void useCase2(String date) {
         elementsFirstPageOrder.setDate(date);
-        elementsForQuestions.clickToElement(elementsSecondPageOrder.Rent);
-        elementsForQuestions.clickToElement(elementsSecondPageOrder.TimeRent);
+        elementsForQuestions.clickToElementOrder(elementsSecondPageOrder.Rent);
+        elementsForQuestions.clickToElementOrder(elementsSecondPageOrder.TimeRent);
         elementsForQuestions.clickToElementOrder(elementsSecondPageOrder.Button_Order);
         elementsForQuestions.clickToElementOrder(confirmation.YesOrder);
         elementsForQuestions.comparisonText("Заказ оформлен",confirmation.Sucсess);
