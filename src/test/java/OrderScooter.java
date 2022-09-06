@@ -56,7 +56,9 @@ public class OrderScooter {
         elementsForQuestions.clickToElementOrder(elementsSecondPageOrder.TimeRent);
         elementsForQuestions.clickToElementOrder(elementsSecondPageOrder.Button_Order);
         elementsForQuestions.clickToElementOrder(confirmation.YesOrder);
-        elementsForQuestions.comparisonText("Заказ оформлен",confirmation.Sucсess);
+        String actual = elementsForQuestions.toText(confirmation.Sucсess);
+        assertEquals("Заказ оформлен",actual);
+        //elementsForQuestions.comparisonText("Заказ оформлен",confirmation.Sucсess);
         }
         @After
         public void close () {
