@@ -7,8 +7,10 @@
     <list default="true" id="63288529-34b5-4c5b-876a-a9fdb029ddc5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Confirmation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsFirstPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsFirstPageOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrderScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderScooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +56,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderScooter.test1order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OrderScooter" />
-      <option name="METHOD_NAME" value="test1order" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderScooter.test2order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint4" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,11 +75,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionsAboutImportant.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuestionsAboutImportant.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="QuestionsAboutImportant" />
-      <option name="METHOD_NAME" value="test7" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionsAboutImportant.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestionsAboutImportant" />
+      <option name="METHOD_NAME" value="test8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,9 +99,9 @@
       <list>
         <item itemvalue="JUnit.QuestionsAboutImportant" />
         <item itemvalue="JUnit.OrderScooter" />
-        <item itemvalue="JUnit.OrderScooter.test1order" />
         <item itemvalue="JUnit.OrderScooter.test2order" />
-        <item itemvalue="JUnit.QuestionsAboutImportant.test7" />
+        <item itemvalue="JUnit.QuestionsAboutImportant.test8" />
+        <item itemvalue="JUnit.QuestionsAboutImportant.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662131088716</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done">
+      <created>1662402694935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662402694936</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,15 +151,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java</url>
+          <line>29</line>
+          <properties class="QuestionsAboutImportant" method="test2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

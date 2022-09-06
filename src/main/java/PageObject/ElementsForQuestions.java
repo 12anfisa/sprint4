@@ -1,10 +1,13 @@
 package PageObject;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static org.junit.Assert.assertEquals;
 
 public class ElementsForQuestions {
 
@@ -57,16 +60,26 @@ public class ElementsForQuestions {
     //метод сколлит до нужного объекта
 
     public void scrollToQuestionsAboutImportant(By element) {
-        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", driver.findElement(element));;
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", driver.findElement(element));
+        new WebDriverWait(driver, 3)
+                .until(ExpectedConditions.visibilityOfElementLocated(element));
     }
     //клик
     public void clickToElement(By element){
         driver.findElement(element).click();
+        new WebDriverWait(driver, 3)
+                .until(ExpectedConditions.visibilityOfElementLocated(element));
     }
+    public void clickToElementOrder(By element){
+        driver.findElement(element).click();}
     //сравниваю текст
-    public void comparisonText (String text, By element) {
-        ExpectedConditions.textToBe(element, text);
+    public String getAnswer(By element){
+        return driver.findElement(element).getText();}
+    public String toText(By element) {
+        return driver.findElement(element).getText();}
 
+    public void comparisonText(String text,By element){
+        ExpectedConditions.textToBe(element, text);
     }
 
     public void Close(){

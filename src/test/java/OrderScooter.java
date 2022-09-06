@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+import static org.junit.Assert.assertEquals;
+
 
 public class OrderScooter {
     private WebDriver driver;
@@ -48,13 +50,14 @@ public class OrderScooter {
         elementsForQuestions.clickToElement(elementsFirstPageOrder.Button_Next);
 
     }
-    public void useCase2(String date ) {
+    public void useCase2(String date) {
         elementsFirstPageOrder.setDate(date);
         elementsForQuestions.clickToElement(elementsSecondPageOrder.Rent);
         elementsForQuestions.clickToElement(elementsSecondPageOrder.TimeRent);
-        elementsForQuestions.clickToElement(elementsSecondPageOrder.Button_Order);
-        elementsForQuestions.clickToElement(confirmation.YesOrder);
-        elementsForQuestions.comparisonText("Заказ оформлен",confirmation.Sucсess);}
+        elementsForQuestions.clickToElementOrder(elementsSecondPageOrder.Button_Order);
+        elementsForQuestions.clickToElementOrder(confirmation.YesOrder);
+        elementsForQuestions.comparisonText("Заказ оформлен",confirmation.Sucсess);
+        }
         @After
         public void close () {
             elementsForQuestions.Close();

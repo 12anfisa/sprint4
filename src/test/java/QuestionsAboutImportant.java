@@ -7,6 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import static org.junit.Assert.assertEquals;
 
 public class QuestionsAboutImportant {
     private WebDriver driver;
@@ -57,10 +60,11 @@ public void before() {
     public void after(){
         elementsForQuestions.Close();
     }
-    private void runtest(By scrollToElement,By clickToElement,String text, By textElement) {
+    private void runtest(By scrollToElement,By clickToElement,String text, By element) {
         elementsForQuestions.scrollToQuestionsAboutImportant(scrollToElement);
         elementsForQuestions.clickToElement(clickToElement);
-        elementsForQuestions.comparisonText(text, textElement);
+        String actual = elementsForQuestions.toText(element);
+        assertEquals(text,actual);
 
     }
 }

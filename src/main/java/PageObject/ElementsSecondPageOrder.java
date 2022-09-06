@@ -8,7 +8,7 @@ public class ElementsSecondPageOrder {
     //когда привезти самокат
     public static By Date = By.xpath("//input[@placeholder='* Когда привезти самокат']");
     //выбор даты
-   // public By ThisDate = By.cssSelector(".Dropdown-placeholder");
+    // public By ThisDate = By.cssSelector(".Dropdown-placeholder");
     //срок аренды
     public By Rent = By.cssSelector(".Dropdown-placeholder");
     //время аренды
