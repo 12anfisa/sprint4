@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63288529-34b5-4c5b-876a-a9fdb029ddc5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsFirstPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsFirstPageOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsForQuestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ElementsSecondPageOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/Сonfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/Сonfirmation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/OrderScooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderScooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +42,21 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.OrderScooter.test1order">
-    <configuration name="OrderScooter.test1order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderScooter">
+    <configuration name="OrderScooter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OrderScooter" />
-      <option name="METHOD_NAME" value="test1order" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderScooter.test2order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderScooter" />
+      <option name="METHOD_NAME" value="test2order" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,21 +71,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionsAboutImportant.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuestionsAboutImportant.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="QuestionsAboutImportant" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuestionsAboutImportant.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuestionsAboutImportant" />
-      <option name="METHOD_NAME" value="test7" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderScooter.test1order" />
-        <item itemvalue="JUnit.QuestionsAboutImportant.test1" />
+        <item itemvalue="JUnit.OrderScooter" />
         <item itemvalue="JUnit.QuestionsAboutImportant" />
-        <item itemvalue="JUnit.QuestionsAboutImportant.test7" />
+        <item itemvalue="JUnit.OrderScooter.test2order" />
         <item itemvalue="JUnit.QuestionsAboutImportant.test8" />
+        <item itemvalue="JUnit.QuestionsAboutImportant.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +110,42 @@
       <option name="presentableId" value="Default" />
       <updated>1660152451377</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1661359843900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661359843900</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix">
+      <created>1662131088716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662131088716</updated>
+    </task>
+    <task id="LOCAL-00003" summary="done">
+      <created>1662402694935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662402694936</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Почему то падает то что работало до, не понимаю почему не проверка остального заработала">
+      <created>1662495447127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662495447127</updated>
+    </task>
+    <task id="LOCAL-00005" summary=" oh">
+      <created>1662497724594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662497724594</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,5 +158,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <MESSAGE value="done" />
+    <MESSAGE value="Почему то падает то что работало до, не понимаю почему не проверка остального заработала" />
+    <MESSAGE value=" oh" />
+    <option name="LAST_COMMIT_MESSAGE" value=" oh" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/QuestionsAboutImportant.java</url>
+          <line>29</line>
+          <properties class="QuestionsAboutImportant" method="test2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
